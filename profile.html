@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="profile-container">
+        <h2>User Profile</h2>
+        <p th:text="'Welcome, ' + ${username}"></p>
+
+        <!-- Sample user information -->
+        <div class="user-info">
+            <label>Username:</label>
+            <span th:text="${username}"></span>
+        </div>
+
+        <div class="user-info">
+            <label>Email:</label>
+            <span th:text="${'johny.deep@example.com'}"></span>
+        </div>
+
+        <div class="user-info">
+            <label>Address:</label>
+            <span th:text="${'123 Main St, Cityville'}"></span>
+        </div>
+
+        <!-- Add more user-related information as needed -->
+
+    </div>
+</body>
+</html>

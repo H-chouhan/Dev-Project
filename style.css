@@ -1,0 +1,38 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.profile-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+.user-info {
+    margin-top: 15px;
+}
+
+label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+span {
+    color: #555;
+}
+
+/* Add more styles as needed */
